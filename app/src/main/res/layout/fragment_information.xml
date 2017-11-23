@@ -1,0 +1,305 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/batak"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.5"
+            android:background="@drawable/shadow_1"
+            android:backgroundTint="#ff000000"
+            android:gravity="center_horizontal">
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/black"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="4"
+                    android:alpha="0.6"
+                    android:background="@drawable/batak"
+                    android:contentDescription="Suku Batak"
+                    android:padding="10dp"
+                    android:scaleType="centerCrop" />
+
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1.6"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="Suku Batak"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="In northern Sumatra, the majority of the population is bataknese. Believe me, the people of Batak seem grim or cruel but they are friendly and open and helpful. If you want, the Batak people are happy to accept you become part of the their clan."
+            android:textColor="#000000"
+            android:layout_marginTop="20dp"
+            android:id="@+id/textBatak"
+            android:gravity="center_horizontal"
+            android:paddingBottom="20dp"
+            android:layout_below="@+id/batak"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <LinearLayout
+            android:id="@+id/bahasa"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.5"
+            android:background="@drawable/shadow_1"
+            android:backgroundTint="#ff000000"
+            android:gravity="center_horizontal">
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/black"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="4"
+                    android:alpha="0.6"
+                    android:background="@drawable/aksara"
+                    android:contentDescription="Bahasa Batak"
+                    android:padding="10dp"
+                    android:scaleType="centerCrop" />
+
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1.6"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="Bahasa Batak"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Batak people use Batak language in their daily life but if you (who do not know Batak language) want to interact, they can speak in unity language, Bahasa Indonesia. In fact, not a few of them can speak english. Courteous language is an important part of Batak society."
+            android:textColor="#000000"
+            android:layout_marginTop="20dp"
+            android:id="@+id/textBahasa"
+            android:gravity="center_horizontal"
+            android:paddingBottom="20dp"
+            android:layout_below="@+id/bahasa"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <LinearLayout
+            android:id="@+id/becak"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.5"
+            android:background="@drawable/shadow_1"
+            android:backgroundTint="#ff000000"
+            android:gravity="center_horizontal">
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/black"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="4"
+                    android:alpha="0.6"
+                    android:background="@drawable/becak"
+                    android:contentDescription="Transportasi"
+                    android:padding="10dp"
+                    android:scaleType="centerCrop" />
+
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1.6"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="Transportasi Darat"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/transportasi"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.5"
+            android:background="@drawable/shadow_1"
+            android:backgroundTint="#ff000000"
+            android:gravity="center_horizontal">
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/black"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="4"
+                    android:alpha="0.6"
+                    android:background="@drawable/kapal"
+                    android:contentDescription="Transportasi"
+                    android:padding="10dp"
+                    android:scaleType="centerCrop" />
+
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1.6"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="Tranportasi Air"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="After arriving at the airport (Silangit), you can round the toba area so much and beautiful. If you are still around toba you can use public transportation such as mini bus or becak. If you want to get around Samosir Island, you can use the boat."
+            android:textColor="#000000"
+            android:layout_marginTop="20dp"
+            android:id="@+id/textTransportasi"
+            android:gravity="center_horizontal"
+            android:paddingBottom="20dp"
+            android:layout_below="@+id/transportasi"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <LinearLayout
+            android:id="@+id/makanan"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.5"
+            android:background="@drawable/shadow_1"
+            android:backgroundTint="#ff000000"
+            android:gravity="center_horizontal">
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/black"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="4"
+                    android:alpha="0.6"
+                    android:background="@drawable/naniura"
+                    android:contentDescription="Makanan Khas"
+                    android:padding="10dp"
+                    android:scaleType="centerCrop" />
+
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1.6"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="Makanan Khas"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="There is always special food from every region. In Toba, there are so many unique foods. One of them is Naniura. Naniura is a goldfish processed using traditional ingredients or spices without cooking. You could say the technique is similar to making sushi."
+            android:textColor="#000000"
+            android:layout_marginTop="20dp"
+            android:id="@+id/textMakanan"
+            android:gravity="center_horizontal"
+            android:paddingBottom="20dp"
+            android:layout_below="@+id/makanan"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </LinearLayout>
+
+</ScrollView>

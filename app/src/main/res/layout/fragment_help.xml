@@ -1,0 +1,134 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/komunikasi"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.5"
+            android:background="@drawable/shadow_1"
+            android:backgroundTint="#ff000000"
+            android:gravity="center_horizontal">
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/black"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="4"
+                    android:alpha="0.6"
+                    android:background="@drawable/komunikasi"
+                    android:contentDescription="Ask and Compact"
+                    android:padding="10dp"
+                    android:scaleType="centerCrop" />
+
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1.6"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="Ask and Compact"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="As a newcomer, do not hesitate to ask the local community. Ask what you want to know. Even asking a lot to be taken into consideration in deciding things"
+            android:textColor="#000000"
+            android:layout_marginTop="20dp"
+            android:id="@+id/textkomunikasi"
+            android:gravity="center_horizontal"
+            android:paddingBottom="20dp"
+            android:layout_below="@+id/komunikasi"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <LinearLayout
+            android:id="@+id/uang"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.5"
+            android:background="@drawable/shadow_1"
+            android:backgroundTint="#ff000000"
+            android:gravity="center_horizontal">
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/black"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="4"
+                    android:alpha="0.6"
+                    android:background="@drawable/rupiah"
+                    android:contentDescription="Money"
+                    android:padding="10dp"
+                    android:scaleType="centerCrop" />
+
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1.6"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="Money"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Make sure you bring money with a varied value, it helps you in doing transactions such as public transportation costs or local food because the price or cost in Toba is relatively cheap"
+            android:textColor="#000000"
+            android:layout_marginTop="20dp"
+            android:id="@+id/textBatak"
+            android:gravity="center_horizontal"
+            android:paddingBottom="20dp"
+            android:layout_below="@+id/rupiah"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </LinearLayout>
+
+</ScrollView>
